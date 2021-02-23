@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		7523916325E3F46900EF15EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523916225E3F46900EF15EE /* AppDelegate.swift */; };
 		7523916525E3F46900EF15EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523916425E3F46900EF15EE /* SceneDelegate.swift */; };
-		7523916725E3F46900EF15EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523916625E3F46900EF15EE /* ViewController.swift */; };
 		7523916A25E3F46900EF15EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7523916825E3F46900EF15EE /* Main.storyboard */; };
 		7523916C25E3F46D00EF15EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7523916B25E3F46D00EF15EE /* Assets.xcassets */; };
 		7523916F25E3F46D00EF15EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7523916D25E3F46D00EF15EE /* LaunchScreen.storyboard */; };
-		7523918225E4080C00EF15EE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7523918125E4080C00EF15EE /* SWRevealViewController.m */; };
+		7523919925E40AF400EF15EE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523919825E40AF400EF15EE /* ChatViewController.swift */; };
+		7523919D25E40B0800EF15EE /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523919C25E40B0800EF15EE /* ChannelViewController.swift */; };
+		752391B625E4104300EF15EE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752391B525E4104300EF15EE /* SWRevealViewController.m */; };
 		9E116B7A75EC3D5872F1C7A5 /* Pods_KCALS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB089D293DDD4B8D7A7EABCD /* Pods_KCALS.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,14 +23,15 @@
 		7523915F25E3F46900EF15EE /* KCALS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCALS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7523916225E3F46900EF15EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7523916425E3F46900EF15EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7523916625E3F46900EF15EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7523916925E3F46900EF15EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7523916B25E3F46D00EF15EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7523916E25E3F46D00EF15EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7523917025E3F46D00EF15EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7523917F25E4080B00EF15EE /* KCALS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCALS-Bridging-Header.h"; sourceTree = "<group>"; };
-		7523918025E4080C00EF15EE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		7523918125E4080C00EF15EE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		7523919825E40AF400EF15EE /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		7523919C25E40B0800EF15EE /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
+		752391B325E4104200EF15EE /* KCALS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCALS-Bridging-Header.h"; sourceTree = "<group>"; };
+		752391B425E4104300EF15EE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		752391B525E4104300EF15EE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		7D5CDDAD282A97292E156DCF /* Pods-KCALS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCALS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KCALS/Pods-KCALS.release.xcconfig"; sourceTree = "<group>"; };
 		CB089D293DDD4B8D7A7EABCD /* Pods_KCALS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KCALS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -57,7 +59,6 @@
 		7523915625E3F46900EF15EE = {
 			isa = PBXGroup;
 			children = (
-				7523917E25E407DA00EF15EE /* Supporting Files */,
 				7523916125E3F46900EF15EE /* KCALS */,
 				7523916025E3F46900EF15EE /* Products */,
 				DB25BCB27779337B5050DDFD /* Pods */,
@@ -76,9 +77,12 @@
 		7523916125E3F46900EF15EE /* KCALS */ = {
 			isa = PBXGroup;
 			children = (
+				752391A725E40F7C00EF15EE /* Supporting Files */,
+				7523919725E40AD500EF15EE /* Model */,
+				7523919625E40ACE00EF15EE /* View */,
+				7523919525E40ABD00EF15EE /* Controller */,
 				7523916225E3F46900EF15EE /* AppDelegate.swift */,
 				7523916425E3F46900EF15EE /* SceneDelegate.swift */,
-				7523916625E3F46900EF15EE /* ViewController.swift */,
 				7523916825E3F46900EF15EE /* Main.storyboard */,
 				7523916B25E3F46D00EF15EE /* Assets.xcassets */,
 				7523916D25E3F46D00EF15EE /* LaunchScreen.storyboard */,
@@ -87,12 +91,35 @@
 			path = KCALS;
 			sourceTree = "<group>";
 		};
-		7523917E25E407DA00EF15EE /* Supporting Files */ = {
+		7523919525E40ABD00EF15EE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7523918025E4080C00EF15EE /* SWRevealViewController.h */,
-				7523918125E4080C00EF15EE /* SWRevealViewController.m */,
-				7523917F25E4080B00EF15EE /* KCALS-Bridging-Header.h */,
+				7523919825E40AF400EF15EE /* ChatViewController.swift */,
+				7523919C25E40B0800EF15EE /* ChannelViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7523919625E40ACE00EF15EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7523919725E40AD500EF15EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		752391A725E40F7C00EF15EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				752391B425E4104300EF15EE /* SWRevealViewController.h */,
+				752391B525E4104300EF15EE /* SWRevealViewController.m */,
+				752391B325E4104200EF15EE /* KCALS-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -224,10 +251,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7523916725E3F46900EF15EE /* ViewController.swift in Sources */,
 				7523916325E3F46900EF15EE /* AppDelegate.swift in Sources */,
 				7523916525E3F46900EF15EE /* SceneDelegate.swift in Sources */,
-				7523918225E4080C00EF15EE /* SWRevealViewController.m in Sources */,
+				752391B625E4104300EF15EE /* SWRevealViewController.m in Sources */,
+				7523919925E40AF400EF15EE /* ChatViewController.swift in Sources */,
+				7523919D25E40B0800EF15EE /* ChannelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +413,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.KCALS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/KCALS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "KCALS/Supporting Files/KCALS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -408,7 +436,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.KCALS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/KCALS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "KCALS/Supporting Files/KCALS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
