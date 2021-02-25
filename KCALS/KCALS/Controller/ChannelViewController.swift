@@ -11,6 +11,7 @@ class ChannelViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //setting the frame for view controller
         self.revealViewController()?.rearViewRevealWidth = self.view.frame.size.width - 50
     }
 }

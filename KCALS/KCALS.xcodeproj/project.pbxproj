@@ -15,6 +15,7 @@
 		7523919925E40AF400EF15EE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523919825E40AF400EF15EE /* ChatViewController.swift */; };
 		7523919D25E40B0800EF15EE /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523919C25E40B0800EF15EE /* ChannelViewController.swift */; };
 		752391B625E4104300EF15EE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752391B525E4104300EF15EE /* SWRevealViewController.m */; };
+		752392B025E6AB2700EF15EE /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752392AF25E6AB2700EF15EE /* GradientView.swift */; };
 		9E116B7A75EC3D5872F1C7A5 /* Pods_KCALS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB089D293DDD4B8D7A7EABCD /* Pods_KCALS.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		752391B325E4104200EF15EE /* KCALS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCALS-Bridging-Header.h"; sourceTree = "<group>"; };
 		752391B425E4104300EF15EE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		752391B525E4104300EF15EE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		752392AF25E6AB2700EF15EE /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		7D5CDDAD282A97292E156DCF /* Pods-KCALS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCALS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KCALS/Pods-KCALS.release.xcconfig"; sourceTree = "<group>"; };
 		CB089D293DDD4B8D7A7EABCD /* Pods_KCALS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KCALS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,6 +105,7 @@
 		7523919625E40ACE00EF15EE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				752392AF25E6AB2700EF15EE /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			files = (
 				7523916325E3F46900EF15EE /* AppDelegate.swift in Sources */,
 				7523916525E3F46900EF15EE /* SceneDelegate.swift in Sources */,
+				752392B025E6AB2700EF15EE /* GradientView.swift in Sources */,
 				752391B625E4104300EF15EE /* SWRevealViewController.m in Sources */,
 				7523919925E40AF400EF15EE /* ChatViewController.swift in Sources */,
 				7523919D25E40B0800EF15EE /* ChannelViewController.swift in Sources */,
