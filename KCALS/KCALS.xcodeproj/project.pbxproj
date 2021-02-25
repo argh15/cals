@@ -18,6 +18,7 @@
 		752392B025E6AB2700EF15EE /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752392AF25E6AB2700EF15EE /* GradientView.swift */; };
 		752392B925E7C19100EF15EE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752392B825E7C19100EF15EE /* Constants.swift */; };
 		752392BD25E7C97E00EF15EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752392BC25E7C97E00EF15EE /* LoginViewController.swift */; };
+		752392C025E7D28A00EF15EE /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752392BF25E7D28A00EF15EE /* CreateAccountViewController.swift */; };
 		9E116B7A75EC3D5872F1C7A5 /* Pods_KCALS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB089D293DDD4B8D7A7EABCD /* Pods_KCALS.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		752392AF25E6AB2700EF15EE /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		752392B825E7C19100EF15EE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		752392BC25E7C97E00EF15EE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		752392BF25E7D28A00EF15EE /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		7D5CDDAD282A97292E156DCF /* Pods-KCALS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCALS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KCALS/Pods-KCALS.release.xcconfig"; sourceTree = "<group>"; };
 		CB089D293DDD4B8D7A7EABCD /* Pods_KCALS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KCALS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,6 +106,7 @@
 				7523919825E40AF400EF15EE /* ChatViewController.swift */,
 				7523919C25E40B0800EF15EE /* ChannelViewController.swift */,
 				752392BC25E7C97E00EF15EE /* LoginViewController.swift */,
+				752392BF25E7D28A00EF15EE /* CreateAccountViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				752391B625E4104300EF15EE /* SWRevealViewController.m in Sources */,
 				752392BD25E7C97E00EF15EE /* LoginViewController.swift in Sources */,
 				752392B925E7C19100EF15EE /* Constants.swift in Sources */,
+				752392C025E7D28A00EF15EE /* CreateAccountViewController.swift in Sources */,
 				7523919925E40AF400EF15EE /* ChatViewController.swift in Sources */,
 				7523919D25E40B0800EF15EE /* ChannelViewController.swift in Sources */,
 			);

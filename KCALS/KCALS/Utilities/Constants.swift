@@ -10,4 +10,6 @@ import Foundation
 struct SegueConstants {
     
     static let login = "login"
+    static let createAccount = "createAccount"
+    static let unwindChannel = "unwindChannel"
 }
